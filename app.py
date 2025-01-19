@@ -16,7 +16,7 @@ PAGE_TITLE = "Digital CV | Ömer Eroglu"
 PAGE_ICON = ":wave:"
 NAME = "Ömer Eroglu"
 DESCRIPTION = """
-Welkom op mijn digitale, interactieve CV. Ik ben Ömer Eroglu, 28 jaar en woon in Zaandam. Ik houd van avontuurlijk
+Welkom op mijn digitale, interactieve CV. Ik ben Ömer Eroglu, 28 jaar en woon in Zaandam. Ik hou van avontuurlijk
 reizen in het verre zuidoosten. Verder vind ik het leuk om te padellen en te klimmen.
 """
 EMAIL = "omerfaruk_eroglu@hotmail.com"
@@ -27,7 +27,7 @@ SOCIAL_MEDIA = {
 #    "Twitter": "https://twitter.com",
 }
 PROJECTS = {
-    "🏆 Machine Learning modellen getraind om te voorspellen of een transactie frauduleus is.": "https://github.com/minprog-platforms/project-omerf42",
+    "🏆 Machine Learning modellen getraind om te voorspellen of een transactie frauduleus is.": "",
     "🏆 Heuristieken geprogrammeerd voor het oplossen van het proteïne vouw probleem": "",
 }
 
@@ -69,12 +69,12 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Experience & Qualifications")
+st.subheader("Profiel")
 st.write(
     """
-- ✔️ Strong hands on experience and knowledge in Python
-- ✔️ Good understanding of statistical principles and their respective applications
-- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
+- ✔️ Leergierig
+- ✔️ Sterke hands-on ervaring en kennis in Python
+- ✔️ Uitstekende teamspeler met een sterk gevoel voor initiatief bij taken
 """
 )
 
@@ -111,7 +111,7 @@ st.write("08/2017 - heden")
 st.write(
     """
 - ► Verantwoordelijk voor het adviseren aan klanten over KPN producten
-- ► Verantwoordelijk voor het communiceren van de doelen aan het team
+- ► Verantwoordelijk geweest voor het communiceren van de doelen aan het team
 """
 )
 
@@ -133,3 +133,11 @@ st.subheader("Eigen projecten")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+    
+
+# --- Referenties ---
+st.write('\n')
+st.subheader("Referenties")
+st.write("---")
+st.write("Massih Sakhi, clustermanager KPN, 0613885738")
+st.write("Doesjent Mahabiersing, clustermanager KPN, 0630688799")
