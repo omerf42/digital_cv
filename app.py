@@ -107,7 +107,7 @@ st.write(
 
 # --- JOB 1
 st.write("🚧", "**KPN | Verkoopadviseur**")
-st.write("08/2017 - heden")
+st.write("08/2018 - heden")
 st.write(
     """
 - ► Verantwoordelijk voor het adviseren aan klanten over KPN producten
