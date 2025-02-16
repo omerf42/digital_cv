@@ -118,7 +118,7 @@ st.write(
 # --- JOB 2
 st.write('\n')
 st.write("🚧", "**Vrijwilliger | Bijles wiskunde**")
-st.write("2022 - 2023")
+st.write("05 / 2022 - 09 / 2023")
 st.write(
     """
 - ► Bijles wiskunde gegeven aan middelbare scholieren
